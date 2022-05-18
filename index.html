@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Unit Converter App</title>
+</head>
+<body>
+  <section class="converter-container">
+    <div class="input-container">
+      <label for="unit-input">Type a Number</label>
+      <input id="unit-input" type="number" name="unit" min="1" placeholder="0">
+    </div>
+    <div class="conversions-container">
+      <div>
+        <p class="unit-description"> Length (Meter/Feet) </p>
+        <p class="converted-unit length"></p>
+      </div>
+
+      <div>
+        <p class="unit-description"> volume (Liters/Gallons) </p>
+        <p class="converted-unit volmue"></p>
+      </div>
+
+      <div>
+        <p class="unit-description"> Mass (Kilograms/Pounds) </p>
+        <p class="converted-unit mass"></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
