@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/UnitConverter)
+![](https://img.shields.io/badge/UnitConverter-blueviolet)
 
 # UnitConverter App
 
